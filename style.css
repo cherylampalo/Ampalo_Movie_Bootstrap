@@ -1,0 +1,79 @@
+body {
+  background: #0f172a;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.movie-card {
+  background: #1e293b;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.movie-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+}
+
+.movie-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.movie-title {
+  margin-top: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.links a {
+  display: block;
+  color: #38bdf8;
+  font-size: 0.9rem;
+  margin-top: 5px;
+  text-decoration: none;
+   word-wrap: break-word;    /* Break long words if needed */
+  overflow-wrap: anywhere;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.youtube-link {
+  display: flex;
+  align-items: center;   /* perfectly center logo and text vertically */
+  justify-content: center;
+  margin-top: 8px;
+  font-weight: bold;
+  gap: 6px;              /* clean spacing between logo and text */
+}
+
+.youtube-link img {
+  width: 20px;           /* consistent logo size */
+  height: 20px;          /* square for neat fit */
+  object-fit: contain;   /* keep proportions */
+  vertical-align: middle;/* align with text baseline */
+}
+
+.youtube-link a {
+  color: #f87171;
+  text-decoration: none;
+  font-size: 0.9rem;
+  line-height: 1.2;
+}
+
+.youtube-link a:hover {
+  text-decoration: underline;
+}
